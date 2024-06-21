@@ -11,6 +11,7 @@
 		ABBDAD532C2544AF00BA4471 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBDAD522C2544AF00BA4471 /* ContentView.swift */; };
 		ABBDAD552C2544B100BA4471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBDAD542C2544B100BA4471 /* Assets.xcassets */; };
 		ABBDAD582C2544B100BA4471 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBDAD572C2544B100BA4471 /* Preview Assets.xcassets */; };
+		ABBDAD5F2C25451200BA4471 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBDAD5E2C25451200BA4471 /* AppViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		ABBDAD522C2544AF00BA4471 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABBDAD542C2544B100BA4471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABBDAD572C2544B100BA4471 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABBDAD5E2C25451200BA4471 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				ABBDAD522C2544AF00BA4471 /* ContentView.swift */,
 				ABBDAD542C2544B100BA4471 /* Assets.xcassets */,
 				ABBDAD562C2544B100BA4471 /* Preview Content */,
+				ABBDAD5E2C25451200BA4471 /* AppViewModel.swift */,
 			);
 			path = Scanny;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			files = (
 				ABBDAD532C2544AF00BA4471 /* ContentView.swift in Sources */,
 				ABBDAD512C2544AF00BA4471 /* ScannyApp.swift in Sources */,
+				ABBDAD5F2C25451200BA4471 /* AppViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +279,7 @@
 				DEVELOPMENT_TEAM = Z9J295B42J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access to scan.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -304,6 +309,7 @@
 				DEVELOPMENT_TEAM = Z9J295B42J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The app needs camera access to scan.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
