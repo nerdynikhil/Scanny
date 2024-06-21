@@ -8,14 +8,22 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var vm: AppViewModel
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        switch vm.dataScannerAccessStatus {
+//        case .scannerAvailable:
+//            mainView
+        case .cameraNotAvailable:
+            Text("Your device doesn't have a camera")
+        case .scannerNotAvailable:
+            Text("Your device doesn't have support for scanning barcode with this app")
+        case .cameraAccessNotGranted:
+            Text("Please provide access to the camera in settings")
+        case .notDetermined:
+            Text("Requesting camera access")
         }
-        .padding()
     }
 }
 
