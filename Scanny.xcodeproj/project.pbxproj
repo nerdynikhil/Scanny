@@ -12,6 +12,7 @@
 		ABBDAD552C2544B100BA4471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBDAD542C2544B100BA4471 /* Assets.xcassets */; };
 		ABBDAD582C2544B100BA4471 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBDAD572C2544B100BA4471 /* Preview Assets.xcassets */; };
 		ABBDAD5F2C25451200BA4471 /* AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBDAD5E2C25451200BA4471 /* AppViewModel.swift */; };
+		ABBDAD612C25488100BA4471 /* DataScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBDAD602C25488100BA4471 /* DataScannerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		ABBDAD542C2544B100BA4471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABBDAD572C2544B100BA4471 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABBDAD5E2C25451200BA4471 /* AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppViewModel.swift; sourceTree = "<group>"; };
+		ABBDAD602C25488100BA4471 /* DataScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScannerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,10 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				ABBDAD502C2544AF00BA4471 /* ScannyApp.swift */,
+				ABBDAD5E2C25451200BA4471 /* AppViewModel.swift */,
 				ABBDAD522C2544AF00BA4471 /* ContentView.swift */,
 				ABBDAD542C2544B100BA4471 /* Assets.xcassets */,
 				ABBDAD562C2544B100BA4471 /* Preview Content */,
-				ABBDAD5E2C25451200BA4471 /* AppViewModel.swift */,
+				ABBDAD602C25488100BA4471 /* DataScannerView.swift */,
 			);
 			path = Scanny;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 				ABBDAD532C2544AF00BA4471 /* ContentView.swift in Sources */,
 				ABBDAD512C2544AF00BA4471 /* ScannyApp.swift in Sources */,
 				ABBDAD5F2C25451200BA4471 /* AppViewModel.swift in Sources */,
+				ABBDAD612C25488100BA4471 /* DataScannerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
