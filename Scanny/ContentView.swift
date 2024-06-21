@@ -13,8 +13,8 @@ struct ContentView: View {
     
     var body: some View {
         switch vm.dataScannerAccessStatus {
-//        case .scannerAvailable:
-//            mainView
+        case .scannerAvailable:
+            mainView
         case .cameraNotAvailable:
             Text("Your device doesn't have a camera")
         case .scannerNotAvailable:
@@ -24,6 +24,13 @@ struct ContentView: View {
         case .notDetermined:
             Text("Requesting camera access")
         }
+    }
+    
+    private var mainView: some View {
+        DataScannerView(
+            recognizedItems: $vm.recognizedItems,
+            recognizedDataType: vm.recognizedDataType,
+            recognizesMultipleItems: vm.recognizesMultipleItems)
     }
 }
 
